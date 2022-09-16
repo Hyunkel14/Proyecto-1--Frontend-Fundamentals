@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Ggalaxya";
+  src: url(./fuentes/Guardians.ttf);
+}
+
+body {
+  background-color: rgb(231, 231, 231);
+  width: 1600px;
+  height: 1800px;
+}
+
+.contenedor {
+  margin-left: 110px;
+}
+
+.card1 {
+  width: 240px;
+  height: 335px;
+  background: white;
+  border-radius: 15px;
+  background-image: url(./Imagenes/nebulosa.jpg);
+  box-shadow: 6px 6px 16px 4px black;
+  transition: all 400ms;
+  float: left;
+  margin-left: 80px;
+  margin-top: 150px;
+}
+
+.card1:hover {
+  transform: translateY(-15px);
+  box-shadow: 10px 10px 18px 10px black;
+}
+
+.encabezado {
+  text-align: center;
+  padding: 20px;
+  background-image: url(./Imagenes/nebulosa.jpg);
+  /* background-size: contain; */
+  border-radius: 18px;
+}
+
+.encabezado > img {
+  width: 100px;
+  border-radius: 18px;
+}
+
+.personaje1 {
+  text-align: center;
+  font-size: 8px;
+  color: rgb(150, 114, 7);
+  background-image: url(./Imagenes/nebulosa.jpg);
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.imageg {
+  width: 120px;
+}
+
+.imageg1 {
+  width: 110px;
+}
+.imageg2 {
+  width: 110px;
+  height: 180px;
+}
+
+.nombre {
+  background: #ccc;
+  background: linear-gradient(90deg, rgb(214, 206, 182), rgb(139, 104, 0));
+  font-family: Ggalaxya;
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.contenedor-miniatura {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid white;
+  box-shadow: 1px 1px 0px white;
+  margin-left: 30px;
+  position: relative;
+  top: 10px;
+
+}
+
+.contenedor-miniatura:hover {
+  box-shadow: 2px 2px 10px 1px white;
+}
+
+.miniatura-imagen {
+  width: 110%;
+  height: 110%;
+}
+.contenedor-miniatura1 {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid white;
+  box-shadow: 1px 1px 0px white;
+  position: relative;
+  left: 15px;
+  top: 8px;
+}
+.contenedor-miniatura1:hover {
+  box-shadow: 2px 2px 10px 1px white;
+}
+
+.contenedor-miniatura1.contenedor {
+  box-shadow: 2px 2px 10px 1px white;
+}
+
+.miniatura-imagen2 {
+  width: 110%;
+  height: 110%;
+}
+.contenedor-miniatura2 {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid white;
+  box-shadow: 1px 1px 0px white;
+  position: relative;
+  left: 30px;
+}
+
+.contenedor-miniatura2:hover {
+  box-shadow: 2px 2px 10px 1px white;
+}
+
+.miniatura-imagen1 {
+  width: 110%;
+  height: 110%;
+}
+.ultimotexto {
+  color: white;
+  font-size: 8px;
+  float: right;
+  margin-right: 70px;
+  position: relative;
+  bottom: 12px;
+  background: linear-gradient(90deg, rgb(214, 206, 182), rgb(139, 104, 0));
+  font-family: Ggalaxya;
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.ultimotexto1 {
+  color: white;
+  font-size: 8px;
+  float: right;
+  margin-right: 75px;
+  position: relative;
+  bottom: 20px;
+  left: 60px;
+  background: linear-gradient(90deg, rgb(214, 206, 182), rgb(139, 104, 0));
+  font-family: Ggalaxya;
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.ultimotexto2 {
+    color: white;
+    font-size: 8px;
+    float: right;
+    margin-right: 70px;
+    position: relative;
+    bottom: 12px;
+    background: linear-gradient(90deg, rgb(214, 206, 182), rgb(139, 104, 0));
+    font-family: Ggalaxya;
+  
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  
+  .ultimotexto2 {
+    color: white;
+    font-size: 8px;
+    float: right;
+    margin-right: 75px;
+    position: relative;
+    bottom: 25px;
+    left: 75px;
+    background: linear-gradient(90deg, rgb(214, 206, 182), rgb(139, 104, 0));
+    font-family: Ggalaxya;
+  
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  
